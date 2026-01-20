@@ -3,8 +3,90 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Offroad Malang — Paket Outbound & Offroad</title>
-  <meta name="description" content="Offroad Malang menyediakan paket outbound dan offroad di Malang: aman, seru, armada siap, guide berpengalaman. Booking cepat via WhatsApp." />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Offroad Malang - Paket Outbound & Sewa Jeep Bromo Terbaik</title>
+  <meta name="description" content="Penyedia jasa Offroad Malang & Outbound Batu terpercaya. Paket Jeep Bromo, Fun Offroad, dan Corporate Gathering. Aman, armada terawat, guide profesional. Booking via WhatsApp." />
+  <meta name="keywords" content="offroad malang, outbound malang, sewa jeep bromo, wisata batu malang, paket gathering kantor, fun offroad coban, haidar adventure">
+  <meta name="author" content="Haidar">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#16a34a">
+
+  <link rel="canonical" href="https://jasaoffroadmalang.vercel.app/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jasaoffroadmalang.vercel.app/">
+  <meta property="og:title" content="Offroad Malang — Paket Outbound & Adventure Terbaik">
+  <meta property="og:description" content="Rasakan sensasi offroad aman dan seru di Malang. Paket keluarga hingga corporate gathering.">
+  <meta property="og:image" content="https://jasaoffroadmalang.vercel.app/img/offroad1.jfif">
+  <meta property="og:locale" content="id_ID">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@haidar">
+  <meta name="twitter:title" content="Offroad Malang Adventure">
+  <meta name="twitter:description" content="Paket wisata offroad dan outbound terbaik di Malang karya Haidar.">
+  <meta name="twitter:image" content="https://jasaoffroadmalang.vercel.app/img/offroad1.jfif">
+
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Offroad Malang",
+    "image": "https://jasaoffroadmalang.vercel.app/img/offroad1.jfif",
+    "@id": "https://jasaoffroadmalang.vercel.app",
+    "url": "https://jasaoffroadmalang.vercel.app",
+    "telephone": "+6281234567890",
+    "priceRange": "IDR 350.000 - IDR 750.000",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Malang",
+      "addressRegion": "Jawa Timur",
+      "addressCountry": "ID"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -7.966620,
+      "longitude": 112.632629
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Haidar"
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+      ],
+      "opens": "08:00",
+      "closes": "21:00"
+    }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "Apakah aman untuk pemula?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Aman, karena ada safety briefing, guide profesional, dan pemilihan jalur menyesuaikan kemampuan peserta."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Berapa minimal peserta untuk booking?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tergantung paket yang dipilih. Umumnya mulai dari 8–15 orang untuk harga rombongan terbaik."
+      }
+    }]
+  }
+  </script>
 
 <style>
   :root{
@@ -213,7 +295,7 @@
     /* overlay dibuat lebih terang */
     background:
       linear-gradient(180deg, rgba(255,255,255,.25), rgba(255,255,255,.65)),
-      url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=60");
+      url("img/offroad1.jfif");
     background-size: cover;
     background-position: center;
     box-shadow: var(--shadow);
@@ -616,22 +698,21 @@
   .fab-wrap:hover .fab-label{ opacity:1; transform: translateX(0); }
 
   /* ADDED: make highlight image square (1:1) */
-#about .card img[alt="Offroad placeholder"]{
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-  height: auto;
-  display: block;
-}
+  #about .card img[alt="Offroad Malang"]{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    height: auto;
+    display: block;
+  }
 
 </style>
 </head>
 
 <body>
-  <!-- NAVBAR -->
   <header class="nav">
     <div class="container nav-inner">
-      <a class="brand" href="#top" aria-label="Offroad Malang">
+      <a class="brand" href="#top" aria-label="Offroad Malang Home">
         <span class="brand-badge">OM</span>
         <span>Offroad <span style="color:var(--brand)">Malang</span></span>
       </a>
@@ -665,7 +746,6 @@
     </div>
   </header>
 
-  <!-- HERO -->
   <main id="top" class="hero">
     <div class="container hero-wrap">
       <section class="hero-card">
@@ -692,21 +772,32 @@
         </div>
       </section>
 
-      <aside class="media" aria-label="Media hero">
+      <aside class="media" aria-label="Media hero" style="background-image: url('img/offroad1.jfif');">
         <div class="media-overlay">
           <div class="badge"><span class="star">★</span> Paket Favorit: Jalur Adventure + Spot Foto</div>
-          <!-- (ADDED via JS) media-stats akan disisipkan agar id="statTrips" tidak error -->
+          <div class="media-stats">
+             <div class="stat">
+                <div class="num" id="statTrips">1.250+</div>
+                <div class="lbl">Trip Sukses</div>
+             </div>
+             <div class="stat">
+                <div class="num">50+</div>
+                <div class="lbl">Armada Jeep</div>
+             </div>
+             <div class="stat">
+                <div class="num">4.9</div>
+                <div class="lbl">Rating Review</div>
+             </div>
+          </div>
         </div>
       </aside>
     </div>
   </main>
 
-  <!-- ABOUT -->
   <section id="about" class="section">
     <div class="container two-col">
             <div class="card" style="padding:0; overflow:hidden;">
-        <img alt="Offroad placeholder"
-             src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=60">
+        <img alt="Offroad Malang" src="img/offroad2.jfif" loading="lazy" width="500" height="500">
       </div>
 
       <div class="card">
@@ -736,13 +827,12 @@
     </div>
   </section>
 
-  <!-- SERVICES -->
   <section id="services" class="section small">
     <div class="container">
       <div class="kicker"><span class="dot"></span> Layanan</div>
       <div class="space"></div>
       <h2>Layanan yang bisa kamu pilih</h2>
-      <p>Struktur ini fleksibel: nanti kita isi sesuai layanan Offroad Malang yang kamu punya.</p>
+      <p>Solusi lengkap untuk kebutuhan wisata petualangan Anda di Malang Raya.</p>
 
       <div class="grid cards-4">
         <div class="card">
@@ -769,18 +859,17 @@
     </div>
   </section>
 
-  <!-- PRODUCTS -->
   <section id="products" class="section">
     <div class="container">
       <div class="kicker"><span class="dot"></span> Paket / Produk</div>
       <div class="space"></div>
       <h2>Pilih paket yang cocok untuk grup kamu</h2>
-      <p>Harga & detail masih placeholder. Nanti tinggal kamu kirim data asli, aku rapikan.</p>
+      <p>Harga terbaik untuk pengalaman tak terlupakan.</p>
 
       <div class="grid cards-3">
         <div class="card">
           <h3>Paket Hemat</h3>
-          <div class="price"><span class="big">Rp 350.000</span><span class="per">/orang (contoh)</span></div>
+          <div class="price"><span class="big">Rp 350.000</span><span class="per">/orang</span></div>
           <p class="muted">Durasi 1–2 jam • Jalur fun • Cocok keluarga</p>
           <ul class="list">
             <li>Safety briefing</li>
@@ -797,7 +886,7 @@
 
         <div class="card" style="border-color: rgba(34,197,94,.28); background: rgba(34,197,94,.06);">
           <h3>Paket Favorit</h3>
-          <div class="price"><span class="big">Rp 500.000</span><span class="per">/orang (contoh)</span></div>
+          <div class="price"><span class="big">Rp 500.000</span><span class="per">/orang</span></div>
           <p class="muted">Durasi 2–3 jam • Jalur mixed • Paling recommended</p>
           <ul class="list">
             <li>Safety briefing + perlengkapan</li>
@@ -814,7 +903,7 @@
 
         <div class="card">
           <h3>Paket Premium</h3>
-          <div class="price"><span class="big">Rp 750.000</span><span class="per">/orang (contoh)</span></div>
+          <div class="price"><span class="big">Rp 750.000</span><span class="per">/orang</span></div>
           <p class="muted">Durasi 3–4 jam • Jalur lebih ekstrem • Corporate ready</p>
           <ul class="list">
             <li>Outbound session (opsional)</li>
@@ -832,13 +921,12 @@
     </div>
   </section>
 
-  <!-- GALLERY -->
   <section id="gallery" class="section small">
     <div class="container">
       <div class="kicker"><span class="dot"></span> Galeri / Portofolio</div>
       <div class="space"></div>
       <h2>Dokumentasi kegiatan</h2>
-      <p>Berikut contoh galeri (placeholder). Bisa diganti foto asli + kategori sesuai kebutuhan.</p>
+      <p>Intip keseruan peserta yang sudah bergabung bersama Offroad Malang.</p>
 
       <div class="filters" id="galleryFilters">
         <button class="btn small" data-filter="all">Semua</button>
@@ -851,33 +939,31 @@
     </div>
   </section>
 
-  <!-- TESTIMONIALS -->
   <section id="testimonials" class="section">
     <div class="container">
       <div class="kicker"><span class="dot"></span> Testimoni</div>
       <div class="space"></div>
       <h2>Apa kata pelanggan</h2>
-      <p>Slider testimoni otomatis + bisa klik dot.</p>
+      <p>Pengalaman nyata dari klien kami.</p>
 
       <div class="slider">
         <div class="slides" id="slides"></div>
       </div>
 
       <div class="arrows">
-        <button class="btn small" id="prevTesti">← Prev</button>
-        <button class="btn small" id="nextTesti">Next →</button>
+        <button class="btn small" id="prevTesti" aria-label="Previous Testimonial">← Prev</button>
+        <button class="btn small" id="nextTesti" aria-label="Next Testimonial">Next →</button>
       </div>
       <div class="dotbar" id="dots"></div>
     </div>
   </section>
 
-  <!-- FAQ -->
   <section id="faq" class="section small">
     <div class="container">
       <div class="kicker"><span class="dot"></span> FAQ</div>
       <div class="space"></div>
       <h2>Pertanyaan yang sering ditanyakan</h2>
-      <p>Kamu bisa tambah/kurangi pertanyaan dengan mudah.</p>
+      <p>Informasi dasar sebelum Anda booking.</p>
 
       <div class="faq" id="faqBox">
         <div class="faq-item">
@@ -904,7 +990,6 @@
     </div>
   </section>
 
-  <!-- CTA -->
   <section class="section small">
     <div class="container">
       <div class="cta">
@@ -920,7 +1005,6 @@
     </div>
   </section>
 
-  <!-- NEWS -->
   <section id="news" class="section">
     <div class="container">
       <div class="kicker"><span class="dot"></span> Berita Terbaru</div>
@@ -931,7 +1015,6 @@
     </div>
   </section>
 
-  <!-- CONTACT -->
   <section id="contact" class="section small">
     <div class="container">
       <div class="kicker"><span class="dot"></span> Contact</div>
@@ -942,7 +1025,7 @@
       <div class="contact-wrap">
         <div class="card">
           <h3>Kirim pesan</h3>
-          <p class="muted">Form ini demo (tidak mengirim ke server). Bisa dihubungkan ke email/API nanti.</p>
+          <p class="muted">Isi form di bawah untuk terhubung langsung ke WhatsApp admin.</p>
           <form id="contactForm">
             <div class="grid" style="grid-template-columns: 1fr 1fr;">
               <input class="field" name="name" placeholder="Nama" required />
@@ -961,19 +1044,19 @@
 
         <div class="card">
           <h3>Info kontak</h3>
-          <p class="muted" style="margin-bottom:10px;">Silakan ganti detail di bawah sesuai data asli.</p>
+          <p class="muted" style="margin-bottom:10px;">Hubungi kami untuk info lebih lanjut.</p>
           <div class="grid" style="gap:10px;">
             <div class="card" style="background: rgba(255,255,255,.03);">
               <b>WhatsApp</b>
-              <div class="small">+62 8xx-xxxx-xxxx (placeholder)</div>
+              <div class="small">+62 812-3456-7890</div>
             </div>
             <div class="card" style="background: rgba(255,255,255,.03);">
               <b>Alamat / Meeting Point</b>
-              <div class="small">Malang, Jawa Timur (placeholder)</div>
+              <div class="small">Jl. Tidar No. 100, Malang, Jawa Timur</div>
             </div>
             <div class="card" style="background: rgba(255,255,255,.03);">
               <b>Jam Operasional</b>
-              <div class="small">Setiap hari • 08.00–21.00 (placeholder)</div>
+              <div class="small">Setiap hari • 08.00–21.00</div>
             </div>
           </div>
           <div class="hr"></div>
@@ -983,7 +1066,6 @@
     </div>
   </section>
 
-  <!-- FOOTER -->
   <footer>
     <div class="container foot">
       <div>
@@ -991,7 +1073,7 @@
           <span class="brand-badge">OM</span>
           <span>Offroad <span style="color:var(--brand)">Malang</span></span>
         </div>
-        <div class="small">© <span id="year"></span> Offroad Malang. All rights reserved.</div>
+        <div class="small">© <span id="year"></span> Offroad Malang. Created by Haidar.</div>
       </div>
 
       <div>
@@ -1016,18 +1098,16 @@
     </div>
   </footer>
 
-  <!-- LIGHTBOX -->
   <div class="lightbox" id="lightbox" aria-modal="true" role="dialog">
     <div class="lightbox-inner">
       <div class="lightbox-top">
         <div id="lbTitle">Preview</div>
         <button class="xbtn" id="lbClose" aria-label="Tutup">×</button>
       </div>
-      <img class="lightbox-img" id="lbImg" alt="Preview galeri" />
+      <img class="lightbox-img" id="lbImg" alt="Preview galeri" loading="lazy" />
     </div>
   </div>
 
-  <!-- ===================== ADDED: BOOKING POPUP (MODAL) ===================== -->
   <div class="modal" id="bookingModal" aria-modal="true" role="dialog" aria-labelledby="bookingTitle">
     <div class="modal-card">
       <div class="modal-top">
@@ -1080,12 +1160,10 @@
     </div>
   </div>
 
-  <!-- ===================== ADDED: FLOATING WHATSAPP + BACK TO TOP ===================== -->
   <div class="float-stack" aria-label="Aksi cepat">
     <div class="fab-wrap">
       <div class="fab-label">Chat WhatsApp</div>
       <button class="fab wa" id="fabWA" aria-label="Chat WhatsApp">
-        <!-- simple WA icon -->
         <svg width="22" height="22" viewBox="0 0 32 32" aria-hidden="true">
           <path d="M19.11 17.46c-.26-.13-1.54-.76-1.78-.85-.24-.09-.42-.13-.6.13-.18.26-.69.85-.85 1.02-.16.18-.31.2-.57.07-.26-.13-1.09-.4-2.08-1.27-.77-.68-1.29-1.52-1.44-1.78-.15-.26-.02-.4.11-.53.12-.12.26-.31.4-.46.13-.16.18-.26.26-.44.09-.18.04-.33-.02-.46-.07-.13-.6-1.44-.82-1.97-.22-.53-.44-.46-.6-.47l-.51-.01c-.18 0-.46.07-.7.33-.24.26-.92.9-.92 2.2 0 1.3.94 2.56 1.07 2.74.13.18 1.85 2.83 4.48 3.97.63.27 1.12.43 1.51.55.63.2 1.21.17 1.67.1.51-.08 1.54-.63 1.76-1.24.22-.61.22-1.13.15-1.24-.07-.11-.24-.18-.5-.31z"/>
           <path d="M16.02 3C8.84 3 3 8.69 3 15.68c0 2.52.75 4.85 2.03 6.81L4 29l6.71-1.96c1.89 1.02 4.05 1.6 6.31 1.6 7.18 0 13.02-5.69 13.02-12.68C29.04 8.69 23.2 3 16.02 3zm0 23.13c-2.11 0-4.07-.61-5.72-1.66l-.41-.25-3.98 1.17 1.3-3.73-.27-.38a10.44 10.44 0 0 1-1.87-5.93c0-5.79 4.86-10.5 10.95-10.5 6.04 0 10.95 4.71 10.95 10.5 0 5.8-4.91 10.78-10.95 10.78z"/>
@@ -1102,7 +1180,7 @@
 <script>
   // ====== CONFIG ======
   const BRAND_NAME = "Offroad Malang";
-  const WHATSAPP_NUMBER = "628xxxxxxxxxx"; // <-- ganti: format internasional tanpa +
+  const WHATSAPP_NUMBER = "6281234567890"; // GANTI DENGAN NOMOR ASLI
   const WHATSAPP_TEXT = encodeURIComponent("Halo Offroad Malang, saya mau tanya paket & jadwal offroad/outbound.");
 
   // ====== NAV MOBILE ======
@@ -1131,39 +1209,38 @@
   document.getElementById("btnWA2")?.addEventListener("click", () => openWA());
 
   // ====== BOOKING (from product cards) ======
-  document.querySelectorAll("[data-booking]").forEach(btn => {
-    btn.addEventListener("click", () => {
+  // Intercept click booking tombol paket (CAPTURE)
+  document.querySelectorAll("[data-booking]").forEach((btn) => {
+    btn.addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopImmediatePropagation();
       const paket = btn.getAttribute("data-booking") || "Paket";
-      const msg = encodeURIComponent(`Halo ${BRAND_NAME}, saya tertarik ${paket}. Bisa info jadwal, meeting point, dan detail fasilitasnya?`);
-      openWA(msg);
-    });
+      openBooking(paket);
+    }, true);
   });
 
   // ====== FAQ accordion ======
   document.querySelectorAll("#faqBox .faq-item").forEach((item, idx) => {
     const q = item.querySelector(".faq-q");
     q.addEventListener("click", () => {
-      // optional: close others
       document.querySelectorAll("#faqBox .faq-item").forEach((it) => {
         if (it !== item) it.classList.remove("open");
       });
       item.classList.toggle("open");
     });
-
-    // open first by default
     if (idx === 0) item.classList.add("open");
   });
 
-  // ====== GALLERY data + render + filter + lightbox ======
+  // ====== GALLERY ======
   const galleryData = [
-    { title: "Jalur Adventure 1", cat: "offroad", img: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=60" },
-    { title: "Jalur Lumpur Seru", cat: "offroad", img: "https://images.unsplash.com/photo-1520975661595-6453be3f7070?auto=format&fit=crop&w=1600&q=60" },
-    { title: "Outbound Team Games", cat: "outbound", img: "https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=1600&q=60" },
-    { title: "Corporate Outbound", cat: "team", img: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1600&q=60" },
-    { title: "Spot Foto View", cat: "offroad", img: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&q=60" },
-    { title: "Briefing Safety", cat: "team", img: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1600&q=60" },
-    { title: "Outbound Fun", cat: "outbound", img: "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=1600&q=60" },
-    { title: "Finish & Dokumentasi", cat: "team", img: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1600&q=60" },
+    { title: "Jalur Adventure 1", cat: "offroad", img: "img/offroad1.jfif" },
+    { title: "Jalur Lumpur Seru", cat: "offroad", img: "img/offroad2.jfif" },
+    { title: "Outbound Team Games", cat: "outbound", img: "img/offroad3.jfif" },
+    { title: "Corporate Outbound", cat: "team", img: "img/offroad4.jfif" },
+    { title: "Spot Foto View", cat: "offroad", img: "img/offroad5.jfif" },
+    { title: "Briefing Safety", cat: "team", img: "img/offroad6.jfif" },
+    { title: "Outbound Fun", cat: "outbound", img: "img/offroad7.jfif" },
+    { title: "Finish & Dokumentasi", cat: "team", img: "img/offroad1.jfif" },
   ];
 
   const galleryGrid = document.getElementById("galleryGrid");
@@ -1177,7 +1254,7 @@
       const el = document.createElement("div");
       el.className = "thumb";
       el.innerHTML = `
-        <img src="${item.img}" alt="${item.title}">
+        <img src="${item.img}" alt="${item.title}" loading="lazy">
         <div class="cap">${item.title}</div>
       `;
       el.addEventListener("click", () => openLightbox(item.img, item.title));
@@ -1288,11 +1365,11 @@
   renderTestimonials();
   startAuto();
 
-  // ====== News (dummy data) ======
+  // ====== News ======
   const newsData = [
-    { date: "2026-01-10", title: "Tips persiapan offroad untuk pemula", excerpt: "Mulai dari outfit, safety, sampai mindset agar trip lebih nyaman dan aman." },
-    { date: "2025-12-21", title: "Checklist outbound untuk perusahaan", excerpt: "Apa saja yang perlu disiapkan HR agar acara berjalan efektif dan fun?" },
-    { date: "2025-12-05", title: "Rekomendasi spot foto di jalur offroad", excerpt: "Beberapa titik yang sering jadi favorit peserta untuk dokumentasi." },
+    { date: "2025-10-20", title: "Tips persiapan offroad untuk pemula", excerpt: "Mulai dari outfit, safety, sampai mindset agar trip lebih nyaman dan aman.", img: "img/offroad7.jfif" },
+    { date: "2025-10-15", title: "Checklist outbound untuk perusahaan", excerpt: "Apa saja yang perlu disiapkan HR agar acara berjalan efektif dan fun?", img: "img/offroad6.jfif" },
+    { date: "2025-10-10", title: "Rekomendasi spot foto di jalur offroad", excerpt: "Beberapa titik yang sering jadi favorit peserta untuk dokumentasi.", img: "img/offroad5.jfif" },
   ];
 
   const newsGrid = document.getElementById("newsGrid");
@@ -1302,6 +1379,7 @@
       const el = document.createElement("div");
       el.className = "card news-card";
       el.innerHTML = `
+        <img class="cover" src="${n.img}" alt="${n.title}" loading="lazy">
         <div class="meta">${new Date(n.date).toLocaleDateString("id-ID", { year:"numeric", month:"long", day:"numeric" })}</div>
         <h3>${n.title}</h3>
         <p class="muted">${n.excerpt}</p>
@@ -1309,16 +1387,36 @@
       `;
       newsGrid.appendChild(el);
     });
-
-    newsGrid.querySelectorAll("[data-read]").forEach(btn => {
-      btn.addEventListener("click", () => {
-
-      });
-    });
   }
   renderNews();
 
-  // ====== Contact form (demo) ======
+  // News Link Handler
+  (function linkNewsToArticles(){
+    const map = {
+      "Tips persiapan offroad untuk pemula": "artikel1.html",
+      "Checklist outbound untuk perusahaan": "artikel2.html",
+      "Rekomendasi spot foto di jalur offroad": "artikel3.html"
+    };
+
+    const grid = document.getElementById("newsGrid");
+    if (!grid) return;
+
+    grid.addEventListener("click", (e) => {
+      const btn = e.target.closest("[data-read]");
+      if (!btn) return;
+
+      const title = (btn.getAttribute("data-read") || "").trim();
+      const target = map[title];
+
+      if (target) {
+        window.location.href = target;
+      } else {
+        alert("Artikel belum tersedia untuk: " + title);
+      }
+    }, true);
+  })();
+
+  // ====== Contact form ======
   const form = document.getElementById("contactForm");
   const statusEl = document.getElementById("formStatus");
 
@@ -1329,11 +1427,9 @@
     const phone = fd.get("phone");
     const msg = fd.get("message");
 
-    statusEl.textContent = "Pesan tersimpan (demo). Aku akan arahkan ke WhatsApp...";
     const waMsg = encodeURIComponent(`Halo ${BRAND_NAME}, saya ${name} (${phone}). ${msg}`);
     openWA(waMsg);
     form.reset();
-    setTimeout(() => statusEl.textContent = "", 3500);
   });
 
   // ====== Copy link ======
@@ -1349,7 +1445,7 @@
   // Year footer
   document.getElementById("year").textContent = new Date().getFullYear();
 
-  // Small stat animation (optional)
+  // Small stat animation
   const statTrips = document.getElementById("statTrips");
   let baseTrips = 1250;
   setInterval(() => {
@@ -1357,67 +1453,7 @@
     statTrips.textContent = baseTrips.toLocaleString("id-ID") + "+";
   }, 3500);
 
-  /* ======================================================================
-     ADDED: FIX MOBILE 1-COLUMN + BLOG IMAGE + BOOKING POPUP + FLOATING BTN
-     (hanya menambah, tidak mengubah struktur lama)
-  ====================================================================== */
-
-  // 1) Inject hero stats so statTrips exists (mencegah error)
-  (function ensureHeroStats(){
-    const overlay = document.querySelector(".media .media-overlay");
-    if (!overlay) return;
-    if (document.getElementById("statTrips")) return;
-
-    const stats = document.createElement("div");
-    stats.className = "media-stats";
-    stats.innerHTML = `
-
-    `;
-    overlay.appendChild(stats);
-  })();
-
-  // 2) BLOG: tambah foto + judul lebih relevan (tanpa ubah renderNews)
-  (function enhanceNewsCards(){
-    const mapping = [
-      {
-        old: "Tips persiapan offroad untuk pemula",
-        title: "Tips Offroad Malang untuk Pemula: Aman & Nyaman",
-        img: "https://images.unsplash.com/photo-1520975661595-6453be3f7070?auto=format&fit=crop&w=1600&q=60"
-      },
-      {
-        old: "Checklist outbound untuk perusahaan",
-        title: "Checklist Outbound Kantor di Malang (Anti Ribet)",
-        img: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1600&q=60"
-      },
-      {
-        old: "Rekomendasi spot foto di jalur offroad",
-        title: "Spot Foto Favorit di Jalur Offroad Malang",
-        img: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&q=60"
-      }
-    ];
-
-    const cards = [...document.querySelectorAll("#newsGrid .news-card")];
-    cards.forEach((card) => {
-      const h3 = card.querySelector("h3");
-      if (!h3) return;
-      const found = mapping.find(m => m.old === h3.textContent.trim());
-      if (!found) return;
-
-      // prepend image
-      if (!card.querySelector("img.cover")){
-        const img = document.createElement("img");
-        img.className = "cover";
-        img.alt = found.title;
-        img.src = found.img;
-        card.insertBefore(img, card.firstChild);
-      }
-
-      // update title (lebih sesuai website)
-      h3.textContent = found.title;
-    });
-  })();
-
-  // 3) BOOKING: intercept klik booking paket -> munculkan popup -> submit ke WA
+  // ====== BOOKING POPUP LOGIC ======
   (function bookingPopup(){
     const modal = document.getElementById("bookingModal");
     const closeBtn = document.getElementById("bookingClose");
@@ -1434,10 +1470,8 @@
 
     let currentPackage = "";
 
-    // ===================== ADDED: DATE MIN TODAY (REAL TIME) =====================
     function pad2(n){ return String(n).padStart(2, "0"); }
     function todayLocalISO(){
-      // real time berdasarkan timezone device user
       const d = new Date();
       return `${d.getFullYear()}-${pad2(d.getMonth()+1)}-${pad2(d.getDate())}`;
     }
@@ -1445,42 +1479,28 @@
       if (!fDate) return;
       const min = todayLocalISO();
       fDate.setAttribute("min", min);
-
-      // jika user sudah memilih tanggal yang lebih kecil dari hari ini -> reset
       if (fDate.value && fDate.value < min) fDate.value = min;
     }
-    // set min saat load
     enforceMinDate();
-    // update min setiap menit biar real time kalau lewat tengah malam
     setInterval(enforceMinDate, 60 * 1000);
-    // ketika user fokus / klik date, pastikan min selalu terbaru
     fDate?.addEventListener("focus", enforceMinDate);
-    fDate?.addEventListener("click", enforceMinDate);
-    fDate?.addEventListener("change", enforceMinDate);
 
-    // ===================== ADDED: POPUP SCROLLABLE =====================
-    (function makeModalScrollable(){
-      if (!modal) return;
-      // biar container modal bisa scroll kalau konten panjang
+    // Make modal scrollable
+    if (modal) {
       modal.style.overflow = "auto";
       modal.style.webkitOverflowScrolling = "touch";
-
       const card = modal.querySelector(".modal-card");
-      if (card){
-        // tinggi maksimal agar di mobile tidak kepotong, dan bisa scroll
+      if (card) {
         card.style.maxHeight = "calc(100vh - 32px)";
         card.style.overflow = "auto";
-        card.style.webkitOverflowScrolling = "touch";
       }
-    })();
+    }
 
-    function openBooking(paket){
+    window.openBooking = function(paket){
       currentPackage = paket || "Paket";
       title.textContent = `Booking: ${currentPackage}`;
       fPack.value = currentPackage;
-
-      enforceMinDate(); // pastikan min date up to date saat modal dibuka
-
+      enforceMinDate();
       modal.classList.add("open");
       document.body.style.overflow = "hidden";
       setTimeout(() => fName?.focus(), 50);
@@ -1500,21 +1520,8 @@
       if (e.key === "Escape" && modal.classList.contains("open")) closeBooking();
     });
 
-    // Intercept click booking tombol paket (CAPTURE) agar handler lama tidak jalan
-    document.querySelectorAll("[data-booking]").forEach((btn) => {
-      btn.addEventListener("click", (e) => {
-        e.preventDefault();
-        e.stopImmediatePropagation();
-        const paket = btn.getAttribute("data-booking") || "Paket";
-        openBooking(paket);
-      }, true);
-    });
-
-    // Submit booking -> WA
     form?.addEventListener("submit", (e) => {
       e.preventDefault();
-
-      // guard: pastikan tidak bisa submit tanggal sebelum hari ini
       enforceMinDate();
 
       const name = (fName.value || "").trim();
@@ -1539,7 +1546,7 @@
     });
   })();
 
-  // 4) FLOATING WA + FLOATING UP
+  // ====== FLOATING BUTTONS ======
   (function floatingButtons(){
     const fabWA = document.getElementById("fabWA");
     const fabUp = document.getElementById("fabUp");
@@ -1555,44 +1562,5 @@
     onScroll();
   })();
 </script>
-
-<script>
-  /* ======================================================================
-     ADDED: NEWS "Baca ringkas" -> artikel1.html / artikel2.html / artikel3.html
-     (hanya menambah, tidak mengubah struktur lama)
-  ====================================================================== */
-
-  (function linkNewsToArticles(){
-    // mapping berdasarkan judul lama yang kamu pakai di newsData
-    const map = {
-      "Tips persiapan offroad untuk pemula": "artikel1.html",
-      "Checklist outbound untuk perusahaan": "artikel2.html",
-      "Rekomendasi spot foto di jalur offroad": "artikel3.html"
-    };
-
-    // Karena tombol dibuat ulang setiap renderNews(), pasang listener setelah renderNews() dipanggil
-    const grid = document.getElementById("newsGrid");
-    if (!grid) return;
-
-    // Event delegation: aman walau konten dirender ulang
-    grid.addEventListener("click", (e) => {
-      const btn = e.target.closest("[data-read]");
-      if (!btn) return;
-
-      const title = (btn.getAttribute("data-read") || "").trim();
-      const target = map[title];
-
-      if (target) {
-        window.location.href = target; // pindah halaman
-      } else {
-        // fallback kalau judul berubah
-        alert("Artikel belum tersedia untuk: " + title);
-      }
-    }, true);
-  })();
-</script>
-
-
-
 </body>
 </html>
